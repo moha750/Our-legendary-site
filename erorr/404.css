@@ -1,0 +1,39 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    img {
+        width: 750px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    img {
+        width: 570px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    img {
+        width: 370px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    img {
+        width: 270px;
+    }
+}
